@@ -132,7 +132,7 @@ export default class Ghost {
     const key = moved ? moveKey : idleKey;
 
     if (currentAnim !== key) {
-      this.ghost.play(moveKey);
+      this.ghost.play(key);
     }
   }
 }

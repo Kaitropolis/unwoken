@@ -135,7 +135,7 @@ export default class Player {
     const key = moved ? moveKey : idleKey;
 
     if (currentAnim !== key) {
-      this.player.play(moveKey);
+      this.player.play(key);
     }
   }
 }
