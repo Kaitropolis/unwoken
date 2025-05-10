@@ -1,10 +1,11 @@
 import { Direction } from "./types/direction";
+import type { Keys } from "./types/keys";
 
 export default class Ghost {
   public ghost: Phaser.Physics.Arcade.Sprite;
   physics: Phaser.Physics.Arcade.ArcadePhysics;
   anims: Phaser.Animations.AnimationManager;
-  cursors?: Phaser.Types.Input.Keyboard.CursorKeys;
+  keys: Keys;
 
   spawnPoint = { x: 200, y: 200 };
   currentDirection: Direction = Direction.Down;
@@ -12,11 +13,11 @@ export default class Ghost {
   constructor(
     physics: Phaser.Physics.Arcade.ArcadePhysics,
     anims: Phaser.Animations.AnimationManager,
-    cursors?: Phaser.Types.Input.Keyboard.CursorKeys
+    keys: Keys
   ) {
     this.physics = physics;
     this.anims = anims;
-    this.cursors = cursors;
+    this.keys = keys;
     this.ghost = this.physics.add.sprite(
       this.spawnPoint.x,
       this.spawnPoint.y,
@@ -105,18 +106,18 @@ export default class Ghost {
       moved = true;
     };
 
-    if (this.cursors?.left.isDown) {
+    if (this.keys.LEFT?.isDown) {
       this.ghost.setVelocityX(-speed);
       setMoved(Direction.Left);
-    } else if (this.cursors?.right.isDown) {
+    } else if (this.keys.RIGHT?.isDown) {
       this.ghost.setVelocityX(speed);
       setMoved(Direction.Right);
     }
 
-    if (this.cursors?.up.isDown) {
+    if (this.keys.UP?.isDown) {
       this.ghost.setVelocityY(-speed);
       setMoved(Direction.Up);
-    } else if (this.cursors?.down.isDown) {
+    } else if (this.keys.DOWN?.isDown) {
       this.ghost.setVelocityY(speed);
       setMoved(Direction.Down);
     }
