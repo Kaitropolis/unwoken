@@ -1,0 +1,96 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "factory-map.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "factory-map.tmj": {
+            "scale": 0.39880208333333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 480.18806321013454,
+                "y": 319.7074572286797
+            }
+        },
+        "factory-map.tmj#room": {
+            "scaleInDock": 1
+        },
+        "factory-map.tmx": {
+            "scale": 0.5215104166666666,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 480.3355637671028,
+                "y": 282.83231798661745
+            }
+        },
+        "factory-map.tmx#factory": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "factory-map.tmx#room": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "factory-tiles.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "map.tmx": {
+            "scale": 0.4077083333333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 480.7358201328564,
+                "y": 479.5094532447624
+            }
+        },
+        "plasma-tileset.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "player.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "room.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.4,
+            "scaleInEditor": 1
+        },
+        "tileset.tmx": {
+            "scale": 0.4077083333333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 469.69851814001026,
+                "y": 320.08175779253963
+            }
+        }
+    },
+    "last.exportedFilePath": "C:/Users/riost/Desktop/Dev/Repos/plasma/public/assets/maps/factory",
+    "last.externalTilesetPath": "C:/Users/riost/Desktop/Dev/tile-projects/buildings",
+    "last.imagePath": "C:/Users/riost/Desktop/Dev/Repos/plasma/public/assets/sprites",
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "openFiles": [
+        "factory-map.tmx",
+        "factory-tiles.tsx",
+        "player.tsx"
+    ],
+    "project": "plasma-tileset.tiled-project",
+    "recentFiles": [
+        "player.tsx",
+        "factory-tiles.tsx",
+        "factory-map.tmx",
+        "factory-map.tmj",
+        "tileset.tmx",
+        "room.tsx",
+        "plasma-tileset.tsx",
+        "map.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx"
+}
