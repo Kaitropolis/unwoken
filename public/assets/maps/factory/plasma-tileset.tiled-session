@@ -78,14 +78,13 @@
     "map.lastUsedFormat": "tmx",
     "openFiles": [
         "factory-map.tmx",
-        "factory-tiles.tsx",
-        "player.tsx"
+        "factory-tiles.tsx"
     ],
     "project": "plasma-tileset.tiled-project",
     "recentFiles": [
-        "player.tsx",
         "factory-tiles.tsx",
         "factory-map.tmx",
+        "player.tsx",
         "factory-map.tmj",
         "tileset.tmx",
         "room.tsx",
